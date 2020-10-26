@@ -4,7 +4,8 @@
   "scripts": {
     "build": "rimraf dist && tsc",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@types/node": "^14.14.2",
