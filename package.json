@@ -1,6 +1,11 @@
 {
-  "private": true,
-  "main": "dist/index.js",
+  "name": "",
+  "version": "0.0.0",
+  "author": "name <email>",
+  "bugs": "https://github.com/org/repo/issues",
+  "description": "",
+  "keywords": [],
+  "repository": "github:org/repo",
   "scripts": {
     "build": "rimraf dist && tsc",
     "lint": "eslint .",
@@ -23,5 +28,7 @@
   },
   "engines": {
     "node": ">=10.0.0"
-  }
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts"
 }
