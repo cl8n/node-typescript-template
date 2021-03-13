@@ -23,6 +23,14 @@
     "tsdoc"
   ],
   "rules": {
+    "@typescript-eslint/lines-between-class-members": [
+      "error",
+      "always",
+      {
+        "exceptAfterSingleLine": true
+      }
+    ],
+    "@typescript-eslint/no-magic-numbers": "off",
     "@typescript-eslint/no-type-alias": [
       "error",
       {
